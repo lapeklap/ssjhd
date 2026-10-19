@@ -103,7 +103,7 @@ function App() {
 
       <section className="mission-section" id="mission">
         <div className="mission-image"><img src="/images/crew.jpg" alt="The SSJHood crew" /><div className="mission-stamp">SSJ<br /><small>HOOD</small></div></div>
-        <div className="mission-copy"><p className="kicker">02 / The mission</p><h2>We&apos;re not here<br />just to save <span>Sherwood.</span></h2><p className="mission-quote">“Inspired by the legendary Super Saiyan transformation, SSJHood represents the next evolution of Robinhood, with the mission of bringing a new level of energy to the ecosystem.”</p><p className="mission-caption">We’re not here just to save Sherwood. <span>⚡</span></p><a className="text-link" href="#roadmap">See what&apos;s next <ArrowDown size={16} /></a></div>
+        <div className="mission-copy"><p className="kicker">02 / The mission</p><h2>We&apos;re not here<br />just to save <span>Sherwood.</span></h2><p className="mission-quote">“Inspired by the legendary Super Saiyan transformation, SSJHood represents the next evolution of Robinhood, with the mission of bringing a new level of energy to the ecosystem.”</p><a className="text-link" href="#roadmap">See what&apos;s next <ArrowDown size={16} /></a></div>
       </section>
 
       <section className="roadmap-section container" id="roadmap">
@@ -117,7 +117,7 @@ function App() {
 
       <section className="community-section container" id="community"><div className="community-copy"><div className="eyebrow"><Shield size={15} /> Join the movement</div><h2>Ready to<br /><span>power up?</span></h2><p>No limits. No holding back. Find your crew and enter the hood.</p><div className="community-actions"><a className="button button-primary" href="https://t.me/ssjhoodcoin" target="_blank" rel="noreferrer"><Send size={17} /> Join Telegram</a><a className="button button-outline" href="https://x.com/ssjhoodcoin" target="_blank" rel="noreferrer"><Twitter size={16} /> Follow on X</a><a className="button button-outline" href="https://dexscreener.com/robinhood/0xssjhood000000" target="_blank" rel="noreferrer">View on Dexscreener <ExternalLink size={16} /></a></div></div><div className="community-art"><img className="community-art-image" src="/images/sher.png" alt="The Sherwood forest" /><div className="community-label">THE STRONGEST<br /><span>COMMUNITY</span></div></div></section>
 
-      <footer className="footer container"><a className="brand" href="#top"><img src="/logo.png" alt="SSJHood logo" /><span>$SSJHOOD</span></a><span>Built with power on Robinhood Chain.</span><span>© 2025 SSJHOOD</span></footer>
+      <footer className="footer container"><img className="footer-image" src="/images/peop.png" alt="The Sherwood community" /><div className="footer-meta"><a className="brand" href="#top"><img src="/logo.png" alt="SSJHood logo" /><span>$SSJHOOD</span></a><span>Built with power on Robinhood Chain.</span><span className="footer-disclaimer">Disclaimer: $SSJHOOD is a parody meme token for entertainment only. Crypto assets are highly risky and may lose all value. Never invest more than you can afford to lose.</span><span>© 2026 SSJHOOD</span></div></footer>
     </main>
   );
 }
